@@ -71,9 +71,9 @@
           <p class="pulldown-list__title">価格帯</p>
           <select class="form-control" name="price" v-model="query.price">
           <option value="">指定しない</option>
-          <option value="low">手軽</option>
-          <option value="normal">普通</option>
-          <option value="hight">高め</option>
+          <option value="手軽">手軽</option>
+          <option value="普通">普通</option>
+          <option value="高め">高め</option>
           </select>
         </div>    
       </div>

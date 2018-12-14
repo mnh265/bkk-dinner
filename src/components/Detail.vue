@@ -41,6 +41,9 @@
 				</table>
 
 				<img class="shop-details__img" src="img/dummy.jpeg">
+                <div class="text-center">
+                    <a :href="detail['URL (Google map)']" target="_blank"><img style="width: 100%; max-width: 600px;" :src="staticMapUrl"></a>
+                </div>
 			</div>
 		</div>
 
@@ -84,6 +87,12 @@ export default {
 			this.detail = filtered[0]
 		}
 		console.log('detail', this.detail)
+	},
+
+	computed: {
+		staticMapUrl () {
+			return `https://maps.googleapis.com/maps/api/staticmap?center=${this.detail.lat},${this.detail.lng}&zoom=16&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0x2980b9&key=AIzaSyD8CTm1r3xCBOoHNCT22ZHLDDABcUHGdCE`
+		}
 	},
 
 	methods: {

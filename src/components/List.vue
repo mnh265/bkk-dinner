@@ -21,10 +21,10 @@
 				</div>
 			</div>
 
-			<div class="p-result__shops">
+			<div class="p-result__shops" v-if="results.length > 0">
 				<div class="shop-item" v-for="(result, i) in results" v-if="i < 10">
 					<router-link :to="'/detail/' + result.ID"><h4 class="shop-item__title">{{result.店舗名}}</h4></router-link>  
-					<p>ここはとっても美味しいお店です。</p>
+					<p>{{result.住所}}</p>
 				</div>
 				<!--div class="shop-item">
 					<h4 class="shop-item__title">店名BBBBBBBBBBBBBB</h4>
@@ -38,6 +38,9 @@
 					<h4 class="shop-item__title">店名DDDDDDDDDDDDDD</h4>
 					<p>ここはとっても美味しいお店です。</p>
 				</div-->
+			</div>
+			<div v-else>
+				<h4>検索結果が見つかりませんでした</h4>
 			</div>
 
 			<div class="p-result__btn">
@@ -61,11 +64,11 @@ export default {
 	created () {
 		const query = this.$route.query
 		const filteredResults = restaurants.filter((restaurant) => {
-			if (query.category) {
-				return restaurant['カテゴリ'] === query.category
-			} else {
-				return true
-			}
+			console.log(restaurant)
+			let categoryCondition = !query.category ? true : restaurant['カテゴリ'] === query.category
+			let stationCondition = !query.station ? true : restaurant['地域'] === query.station
+			let priceCondition = !query.price ? true : restaurant['お一人様予算'] === query.price
+			return categoryCondition && stationCondition && priceCondition
 		})
 		this.results = this.shuffle(filteredResults)
 	},
