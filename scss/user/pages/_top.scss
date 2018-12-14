@@ -1,0 +1,16 @@
+.p-top {
+    max-width: 480px;
+    margin: 0 auto;
+    z-index: 2;
+
+
+
+
+	&__search {
+		margin: 40px;
+	}
+
+	&__btn {
+		text-align: center;
+	}
+}

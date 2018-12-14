@@ -1,0 +1,31 @@
+.shop-details {
+margin-bottom: 40px;
+
+		&__table th {
+			padding-top: 10px;
+			padding-right: 25px;
+			font-size: 14px;
+			font-weight: bolder;
+		}
+
+		&__table td {
+			padding-top: 10px;
+			padding-right: 25px;
+			font-size: 14px;
+			font-weight: normal;
+		}	
+
+
+		&__img {
+			padding: 15px 5px;
+			max-width: 50%;
+			text-align: center;
+		}
+
+}
+
+.shop-details h3 {
+	font-size: 18px;
+	font-weight: bolder;
+	color: #7FC4FD;
+}

@@ -1,0 +1,30 @@
+.p-restaurant {
+    max-width: 480px;
+    margin: 0 auto;
+
+		&__shopinfo {
+		width: 90%;
+		margin: 0 auto;
+
+		}
+
+		&__blog {
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 30px;
+
+		}
+
+
+
+		&__share {
+			text-align: center;
+			
+		}
+
+
+		&__btn {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+}

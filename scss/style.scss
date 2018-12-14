@@ -1,0 +1,50 @@
+// レスポンシブ用
+$pc: 1024px; // PC
+$sp: 480px;  // スマホ
+
+@mixin pc {
+  @media (min-width: ($pc)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (min-width: ($sp)) and (max-width: ($pc)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
+div {
+	font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+}
+
+// Bootstrap
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// Pages
+@import './user/pages/top';
+@import './user/pages/result';
+@import './user/pages/restaurant';
+
+// Components
+@import './user/components/header';
+@import './user/components/button';
+@import './user/components/pulldown-list';
+@import './user/components/search-setting';
+@import './user/components/shoptitle';
+@import './user/components/shop-details';
+@import './user/components/social';
+@import './user/components/kv';
+@import './user/components/label';
+@import './user/components/footer';
+@import './user/components/maintitle';
+@import './user/components/shop-item';
+@import './user/components/background';
+@import './user/components/label-2';
+@import './user/components/blog';
