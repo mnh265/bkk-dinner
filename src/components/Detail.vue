@@ -40,7 +40,6 @@
 					</tr>
 				</table>
 
-				<img class="shop-details__img" src="img/dummy.jpeg">
                 <div class="text-center">
                     <a :href="detail['URL (Google map)']" target="_blank"><img style="width: 100%; max-width: 600px;" :src="staticMapUrl"></a>
                 </div>
