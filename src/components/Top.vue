@@ -68,7 +68,7 @@
         </div>
 
         <div class="pulldown-list">
-          <p class="pulldown-list__title">価格帯</p>
+          <p class="pulldown-list__title">一食あたり予算</p>
           <select class="form-control" name="price" v-model="query.price">
           <option value="">指定しない</option>
           <option value="手軽">手軽</option>
