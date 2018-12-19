@@ -2,7 +2,7 @@
 	<div>
 	    <header class="header">
 	      <div class="header__sitetitle">
-	      <router-link class="sitetitle" to="/"><img src="../assets/logo.png"></router-link><p>Bangkok Dinner Adviser</p>
+	        <router-link class="sitetitle" to="/"><img src="../assets/logo.png"><span>Bangkok Dinner Adviser</span></router-link>
 	      </div>
 	    </header>
 
