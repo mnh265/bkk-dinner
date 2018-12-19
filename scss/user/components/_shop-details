@@ -1,18 +1,47 @@
 .shop-details {
 margin-bottom: 40px;
 
-		&__table th {
-			padding-top: 10px;
-			padding-right: 25px;
-			font-size: 14px;
-			font-weight: bolder;
+		&__table th {			
+					@include pc {
+						padding-top: 10px;
+						padding-right: 25px;
+						font-size: 16px;
+						font-weight: bolder;
+					};
+					@include tab {
+						padding-top: 10px;
+						padding-right: 25px;
+						font-size: 16px;
+						font-weight: bolder;
+					};
+					@include sp {
+						padding-top: 10px;
+						padding-right: 25px;
+						font-size: 14px;
+						font-weight: bolder;
+					};
 		}
 
 		&__table td {
-			padding-top: 10px;
-			padding-right: 25px;
-			font-size: 14px;
-			font-weight: normal;
+					@include pc {
+						padding-top: 10px;
+						padding-right: 25px;
+						font-size: 16px;
+						font-weight: normal;
+					};
+					@include tab {
+						padding-top: 10px;
+						padding-right: 25px;
+						font-size: 16px;
+						font-weight: normal;
+					};
+					@include sp {
+						padding-top: 10px;
+						padding-right: 25px;
+						font-size: 14px;
+						font-weight: normal;
+					};
+
 		}	
 
 
@@ -22,10 +51,18 @@ margin-bottom: 40px;
 			text-align: center;
 		}
 
+		&__table {
+		margin-top: 20px;
+		}
+
 }
 
 .shop-details h3 {
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: bolder;
 	color: #7FC4FD;
+}
+
+.shop-details img{
+	padding-top: 20px;
 }

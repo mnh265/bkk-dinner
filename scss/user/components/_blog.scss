@@ -1,30 +1,33 @@
 .blog h3{
 	@include pc {	
 		border-bottom: 1px solid #7FC4FD;
-		padding-top: 20px;
+		padding-top: 22px;
 		padding-bottom: 5px;
 		padding-right: 0;
 		padding-left: 0;
 		font-size: 18px;
 		color: #576574;
+		font-weight: bolder;
 	};
 	@include tab {
 		border-bottom: 1px solid #7FC4FD;
-		padding-top: 20px;
+		padding-top: 22px;
 		padding-bottom: 5px;
 		padding-right: 0;
 		padding-left: 0;
 		font-size: 18px;
 		color: #576574;
+		font-weight: bolder;
 	};
 	@include sp {
 		border-bottom: 1px solid #7FC4FD;
-		padding-top: 20px;
+		padding-top: 22px;
 		padding-bottom: 5px;
 		padding-right: 0;
 		padding-left: 0;
 		font-size: 16px;
 		color: #576574;
+		font-weight: bolder;
 	};	
 
 }
@@ -33,17 +36,17 @@
 	@include pc {	
 		display: block;
 		padding-bottom: 5px;
-		font-size: 14px;
+		font-size: 16px;
 	};
 	@include tab {
 		display: block;
 		padding-bottom: 5px;
-		font-size: 14px;
+		font-size: 16px;
 	};
 	@include sp {
 		display: block;
 		padding-bottom: 5px;
-		font-size: 12px;
+		font-size: 16px;
 	};	
 
 }

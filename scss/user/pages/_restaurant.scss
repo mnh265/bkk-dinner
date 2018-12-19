@@ -3,23 +3,49 @@
     margin: 0 auto;
 
 		&__shopinfo {
-		width: 90%;
-		margin: 0 auto;
+				@include pc {
+					width: 90%;
+					margin: 0 auto;
+				};
+				@include tab {
+					width: 90%;
+					margin: 0 auto;
+				};
+				@include sp {
+					width: 95%;
+					margin: 0 auto;
+				};
 
 		}
 
 		&__blog {
-		width: 90%;
-		margin: 0 auto;
-		margin-bottom: 30px;
-
+				@include pc {
+					width: 90%;
+					margin: 0 auto;
+				};
+				@include tab {
+					width: 90%;
+					margin: 0 auto;
+				};
+				@include sp {
+					width: 95%;
+					margin: 0 auto;
+				};
 		}
 
 
 
 		&__share {
 			text-align: center;
+			margin-top: 40px;
 			
+		}
+
+		&__share h3 {
+			font-size: 18px;
+			font-weight: bolder;
+			margin-bottom: 60px;
+			color: #576574;
 		}
 
 
@@ -27,4 +53,11 @@
 			text-align: center;
 			margin-bottom: 30px;
 		}
+
+		&__enquiry {
+			width: 90%;
+			margin: 0 auto;
+		}
+
 }
+

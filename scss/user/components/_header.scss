@@ -1,16 +1,4 @@
 .header {
-	&__title {
-		width: 100%;
-		height: 70px;
-		padding: 20px 50px;
-		background-color: #FF0000;
-		opacity: 0.9;
-		color: #fff;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-		font-size: 26px;
-	}
 
 	&__sitetitle img {
 		@include pc {	
@@ -34,7 +22,7 @@
 	&__sitetitle {
 		@include pc {
 			width: 100%;
-			height: 40px;
+			height: 38px;
 			display: flex;
 			color: #fff;
 			font-size: 18px;
@@ -44,7 +32,7 @@
 		};
 		@include tab {
 			width: 100%;
-			height: 40px;
+			height: 38px;
 			display: flex;
 			color: #fff;
 			font-size: 16px;
@@ -54,7 +42,7 @@
 		};
 		@include sp {
 			width: 100%;
-			height: 30px;
+			height: 38px;
 			display: flex;
 			color: #fff;
 			font-size: 14px;

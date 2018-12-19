@@ -1,9 +1,9 @@
 <template>
+
   <div>
     <header class="header">
       <div class="header__sitetitle">
-        <img src="../assets/logo.png">
-        <p>Bangkok Dinner Adviser</p>
+        <router-link class="sitetitle" to="/"><img src="../assets/logo.png"></router-link><p>Bangkok Dinner Adviser</p>
       </div>
     </header>
 

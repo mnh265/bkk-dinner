@@ -1,0 +1,26 @@
+.no-result h4{
+	font-size: 18px;
+}
+
+.no-result {
+	padding-bottom: 30px;
+	text-align: center;
+
+
+}
+
+.no-result img {
+	@include pc {	
+		width: 40%;
+		padding-bottom: 30px;
+	};
+	@include tab {
+		width: 40%;
+		padding-bottom: 30px;
+	};
+	@include sp {
+		width: 35%;
+		padding-bottom: 30px;
+	};
+
+}

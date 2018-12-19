@@ -1,6 +1,6 @@
 .search-setting {
 	margin: 0 auto;
-	width: 95%;
+	width: 90%;
 	height: 220px;
 	background-color: #E2EDFA;
 	opacity: 0.5;
@@ -9,10 +9,10 @@
 
 
 	&__title{
-		font-size: 14px;
-		color: #222f3e;
-		padding: 10px 5px;
-
+	font-size: 16px;
+    color: #222f3e;
+    padding: 10px 5px;
+    font-weight: bolder;
 	}
 
 }

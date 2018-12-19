@@ -2,8 +2,7 @@
 	<div>
 	    <header class="header">
 	      <div class="header__sitetitle">
-	        <img src="../assets/logo.png">
-	        <p>Bangkok Dinner Adviser</p>
+	      <router-link class="sitetitle" to="/"><img src="../assets/logo.png"></router-link><p>Bangkok Dinner Adviser</p>
 	      </div>
 	    </header>
 
@@ -26,21 +25,11 @@
 					<router-link :to="'/detail/' + result.ID"><h4 class="shop-item__title">{{result.店舗名}}</h4></router-link>  
 					<p>{{result.住所}}</p>
 				</div>
-				<!--div class="shop-item">
-					<h4 class="shop-item__title">店名BBBBBBBBBBBBBB</h4>
-					<p>ここはとっても美味しいお店です。</p>
-				</div>
-				<div class="shop-item">
-					<h4 class="shop-item__title">店名CCCCCCCCCCCCCC</h4>
-					<p>ここはとっても美味しいお店です。</p>
-				</div>
-				<div class="shop-item">
-					<h4 class="shop-item__title">店名DDDDDDDDDDDDDD</h4>
-					<p>ここはとっても美味しいお店です。</p>
-				</div-->
 			</div>
-			<div v-else>
-				<h4>検索結果が見つかりませんでした</h4>
+
+			<div class="no-result" v-else>
+				<img src="../assets/neko.png" alt=sorry>
+				<h4>検索結果が見つかりませんでした。<br>別の条件でもう一度試してみてください。</h4>
 			</div>
 
 			<div class="p-result__btn">

@@ -2,8 +2,7 @@
   <div>
     <header class="header">
       <div class="header__sitetitle">
-        <img src="../assets/logo.png">
-        <p>Bangkok Dinner Adviser</p>
+      <router-link class="sitetitle" to="/"><img src="../assets/logo.png"></router-link><p>Bangkok Dinner Adviser</p>
       </div>
     </header>
 
@@ -49,22 +48,30 @@
 		<div class="p-restaurant__blog">
 			<div class="blog">
 				<h3>ブログなど</h3>
-				<a href="###">記事タイトル</a>
-				<a href="###">記事タイトル</a>
-				<a href="###">記事タイトル</a>
+				<a href="###">Coming Soon!</a>
+				<a href="###">Coming Soon!</a>
+				<a href="###">Coming Soon!</a>
 			</div>
 		</div>
 
 		<div class="p-restaurant__share">
 			<h3>シェアする</h3>
-            
+
 		</div>
 
 
 		<div class="p-restaurant__btn">
 			<router-link class="btn" to="/">もう一度探す</router-link>  
 		</div>
+		
+
+		<div class="p-restaurant__enquiry">
+			<div class="enquiry">
+			<p>このBangkok Dinner Adviser に関するご意見やご感想、お問い合わせは<a href="https://twitter.com/manahii" target="_blank">作者</a>までお気軽にどうぞ！</p>
+			</div>
+		</div>
 	</div>
+
 	<div class="footer">© 2018 Bangkok Dinner Adviser</div>
 </div>
 </template>
@@ -90,9 +97,10 @@ export default {
 
 	computed: {
 		staticMapUrl () {
-			return `https://maps.googleapis.com/maps/api/staticmap?center=${this.detail.lat},${this.detail.lng}&zoom=16&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0x2980b9&key=AIzaSyD8CTm1r3xCBOoHNCT22ZHLDDABcUHGdCE`
+			return `https://maps.googleapis.com/maps/api/staticmap?center=${this.detail.lat},${this.detail.lng}&zoom=16&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size%3Amid%7Ccolor%red%7Clabel%3AA%7C${this.detail.lat},${this.detail.lng}&key=AIzaSyD8CTm1r3xCBOoHNCT22ZHLDDABcUHGdCE`
 		}
 	},
+
 
 	methods: {
 	}
