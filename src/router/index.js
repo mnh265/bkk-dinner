@@ -28,3 +28,7 @@ export default new Router({
     return { x: 0, y: 0 }
   }
 })
+
+var SocialSharing = require('vue-social-sharing');
+
+Vue.use(SocialSharing);

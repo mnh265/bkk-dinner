@@ -57,6 +57,37 @@
 		<div class="p-restaurant__share">
 			<h3>シェアする</h3>
 
+			 <social-sharing url="https://bangkok-dinner-adviser.info/"
+                      title="Bangkok Dinner Adviser（バンコクディナーアドバイザー）"
+                      description="バンコクの夕飯スポットをサクっと決めよう！"
+                      
+                      inline-template>
+
+				  <div>
+				  <network network="email">
+				      <i class="fa fa-envelope"></i> Email
+				  </network>
+				  <network network="facebook">
+				    <i class="fa fa-facebook"></i> Facebook
+				  </network>
+				  <network network="line">
+				    <i class="fa fa-line"></i> Line
+				  </network>
+				  <network network="linkedin">
+				    <i class="fa fa-linkedin"></i> LinkedIn
+				  </network>
+				  <network network="pinterest">
+				    <i class="fa fa-pinterest"></i> Pinterest
+				  </network>
+				  <network network="twitter">
+				    <i class="fa fa-twitter"></i> Twitter
+				  </network>
+				  <network network="whatsapp">
+				    <i class="fa fa-whatsapp"></i> Whatsapp
+				  </network>
+				</div>
+				</social-sharing>
+
 
 
 		</div>
@@ -108,3 +139,4 @@ export default {
 	}
 }
 </script>
+
