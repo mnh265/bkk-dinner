@@ -54,6 +54,10 @@
 			</div>
 		</div>
 
+		<div class="p-restaurant__btn">
+			<router-link class="btn" to="/">もう一度探す</router-link>  
+		</div>
+		
 		<div class="p-restaurant__share">
 			<h3>シェアする</h3>
 
@@ -63,40 +67,27 @@
                       
                       inline-template>
 
-				  <div>
-				  <network network="email">
-				      <i class="fa fa-envelope"></i> Email
-				  </network>
+				  <div class="social-wrap">
 				  <network network="facebook">
-				    <i class="fa fa-facebook"></i> Facebook
+				    <i class="fab fa-3x fa-facebook-square"></i>
 				  </network>
 				  <network network="line">
-				    <i class="fa fa-line"></i> Line
+				    <i class="fab fa-3x fa-line"></i>
 				  </network>
 				  <network network="linkedin">
-				    <i class="fa fa-linkedin"></i> LinkedIn
+				    <i class="fab fa-3x fa-linkedin"></i>
 				  </network>
 				  <network network="pinterest">
-				    <i class="fa fa-pinterest"></i> Pinterest
+				    <i class="fab fa-3x fa-pinterest-square"></i>
 				  </network>
 				  <network network="twitter">
-				    <i class="fa fa-twitter"></i> Twitter
-				  </network>
-				  <network network="whatsapp">
-				    <i class="fa fa-whatsapp"></i> Whatsapp
+				    <i class="fab fa-3x fa-twitter-square"></i>
 				  </network>
 				</div>
 				</social-sharing>
 
-
-
 		</div>
 
-
-		<div class="p-restaurant__btn">
-			<router-link class="btn" to="/">もう一度探す</router-link>  
-		</div>
-		
 
 		<div class="p-restaurant__enquiry">
 			<div class="enquiry">

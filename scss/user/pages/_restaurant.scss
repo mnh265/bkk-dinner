@@ -22,29 +22,40 @@
 				@include pc {
 					width: 90%;
 					margin: 0 auto;
+					margin-bottom: 40px;
 				};
 				@include tab {
 					width: 90%;
 					margin: 0 auto;
+					margin-bottom: 40px;
 				};
 				@include sp {
 					width: 95%;
 					margin: 0 auto;
+					margin-bottom: 40px;
 				};
 		}
 
 
 
 		&__share {
-			text-align: center;
-			margin-top: 40px;
-			
+		    margin: 0 auto;
+		    width: 90%;
+		    height: 130px;
+		    background-color: #E2EDFA;
+		    opacity: 0.8;
+		    border-radius: 10px;
+		    padding: 20px;
+		    text-align: center;
+		    margin-top: 40px;
+		    margin-bottom: 40px;
+		    
 		}
 
 		&__share h3 {
 			font-size: 18px;
 			font-weight: bolder;
-			margin-bottom: 60px;
+			margin-bottom: 15px;
 			color: #576574;
 		}
 
