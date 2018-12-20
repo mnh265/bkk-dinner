@@ -99,7 +99,7 @@ export default {
 
 	computed: {
 		staticMapUrl () {
-			return `https://maps.googleapis.com/maps/api/staticmap?center=${this.detail.lat},${this.detail.lng}&zoom=16&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size%3Amid%7Ccolor%red%7Clabel%3AA%7C${this.detail.lat},${this.detail.lng}&key=AIzaSyD8CTm1r3xCBOoHNCT22ZHLDDABcUHGdCE`
+			return `https://maps.googleapis.com/maps/api/staticmap?center=${this.detail.lat},${this.detail.lng}&zoom=16&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size%3Amid%7Ccolor%red%7Clabel%3AA%7C&key=AIzaSyD8CTm1r3xCBOoHNCT22ZHLDDABcUHGdCE`
 		}
 	},
 
