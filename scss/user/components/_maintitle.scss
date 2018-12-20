@@ -7,6 +7,18 @@
 }
 
 .main-title h2 {
-	font-size: 28px;
-	font-weight: bolder;
+		@include pc {	
+			font-size: 28px;
+			font-weight: bolder;
+		};
+		@include tab {
+			font-size: 28px;
+			font-weight: bolder;
+		};
+		@include sp {
+			font-size: 26px;
+			font-weight: bolder;
+		};
+
+	
 }

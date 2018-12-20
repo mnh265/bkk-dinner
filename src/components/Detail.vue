@@ -71,6 +71,9 @@
 				  <network network="facebook">
 				    <i class="fab fa-3x fa-facebook-square"></i>
 				  </network>
+				  <network network="twitter">
+				  <i class="fab fa-3x fa-twitter-square"></i>
+				  </network>
 				  <network network="line">
 				    <i class="fab fa-3x fa-line"></i>
 				  </network>
@@ -80,9 +83,7 @@
 				  <network network="pinterest">
 				    <i class="fab fa-3x fa-pinterest-square"></i>
 				  </network>
-				  <network network="twitter">
-				    <i class="fab fa-3x fa-twitter-square"></i>
-				  </network>
+
 				</div>
 				</social-sharing>
 
