@@ -71,9 +71,9 @@
           <p class="pulldown-list__title">一食あたり予算</p>
           <select class="form-control" name="price" v-model="query.price">
           <option value="">指定しない</option>
-          <option value="手軽（〜700THB）">手軽（〜700THB）</option>
-          <option value="普通（700〜1,500THB）">普通（700〜1,500THB）</option>
-          <option value="高め（1,500THB〜）">高め（1,500THB〜）</option>
+          <option value="手軽">手軽（〜700THB）</option>
+          <option value="普通">普通（701〜1,500THB）</option>
+          <option value="高め">高め（1,501THB〜）</option>
           </select>
         </div>    
       </div>
