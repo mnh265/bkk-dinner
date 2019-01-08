@@ -1,0 +1,24 @@
+.news {
+	border: #d0d0d0 solid 1px;
+	border-radius: 10px;
+	color: #464646;
+
+	&__table th{
+		font-size: 14px;
+		padding: 5px;
+	}
+
+	&__table td{
+		font-size: 16px;
+		padding: 5px;
+	}
+
+}
+
+.news h3 {
+	background-color: #E2EDFA;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px 10px 0 0 / 10px 10px 0 0;
+    color: #464646;
+}

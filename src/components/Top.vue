@@ -82,8 +82,22 @@
         <!--router-link class="btn" to="/list">探す</router-link-->
         <a href="javascript:;" class="btn" @click="onClickSubmit">探す</a>
       </div>
+
+      <div class="p-top__news">
+        <div class="news">
+          <h3>お知らせ</h3>
+            <table class="news__table">
+              <tr>
+                <th>2018年12月20日</th><td>"Bangkok Dinner Adviser" Ver 1.0が公開されました。</td>
+              </tr>
+            </table>
+        </div>
+      </div>
+
     </div>
+
     <div class="footer">© 2018 Bangkok Dinner Adviser</div>
+
   </div>
 </template>
 
