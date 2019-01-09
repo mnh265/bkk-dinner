@@ -48,9 +48,14 @@
 		<div class="p-restaurant__blog">
 			<div class="blog">
 				<h3>ブログなど</h3>
-				<a href="###">Coming Soon!</a>
-				<a href="###">Coming Soon!</a>
-				<a href="###">Coming Soon!</a>
+				<div v-if="detail['Blog 1 (URL)']">
+					<a v-for="i in [1, 2, 3, 4]" v-if="detail['Blog ' + i + ' (URL)']" :href="detail['Blog ' + i + ' (URL)']" target="_blank">{{detail['Blog ' + i + ' (title)']}}</a>
+				</div>
+				<div v-else>
+					<a href="###">Coming Soon!</a>
+					<a href="###">Coming Soon!</a>
+					<a href="###">Coming Soon!</a>
+				</div>
 			</div>
 		</div>
 
