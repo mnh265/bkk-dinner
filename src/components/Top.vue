@@ -71,8 +71,8 @@
           <p class="pulldown-list__title">一食あたり予算</p>
           <select class="form-control" name="price" v-model="query.price">
           <option value="">指定しない</option>
-          <option value="手軽">手軽（〜700THB）</option>
-          <option value="普通">普通（701〜1,500THB）</option>
+          <option value="手軽">手軽（〜600THB）</option>
+          <option value="普通">普通（601〜1,500THB）</option>
           <option value="高め">高め（1,501THB〜）</option>
           </select>
         </div>    
@@ -88,7 +88,10 @@
           <h3>お知らせ</h3>
             <table class="news__table">
               <tr>
-                <th>2018年12月20日</th><td>"Bangkok Dinner Adviser" Ver 1.0が公開されました。</td>
+                <th>2019年<br>1月9日</th><td>【Bangkok Dinner Adviser Ver 1.1公開】<br>店舗詳細ページにその店舗を紹介するブログ記事のリンクが追加されました。また掲載店舗が増えました。</td>
+              </tr>              
+              <tr>
+                <th>2018年<br>12月20日</th><td>Bangkok Dinner Adviser Ver 1.0が公開されました。</td>
               </tr>
             </table>
         </div>
