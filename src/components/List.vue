@@ -21,7 +21,7 @@
 			</div>
 
 			<div class="p-result__shops" v-if="results.length > 0">
-				<div class="shop-item" v-for="(result, i) in results" v-if="i < 30">
+				<div class="shop-item" v-for="(result, i) in results" v-if="i < 50">
 					<router-link :to="'/detail/' + result.ID"><h4 class="shop-item__title">{{result.店舗名}}</h4></router-link>  
 					<p>{{result.住所}}</p>
 				</div>
